@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- START BLOCK : SCOREBOARD -->
+    <div class="scoreboard">
+
+        <p>Your choice is: {keuze}</p>
+        <p>The Rival's choice is: {comp}</p>
+        <p>Result: {message}</p>
+        <p>Your score is: {SCORE}</p>
+        <p>Rival's score is: {computerscore}</p>
+
+    </div>
+    <!-- END BLOCK : SCOREBOARD -->
+
+    <form action="index.php" method="post">
+        <input type="submit" name="reset" class="reset" value="RESET" title="RESET">
+    </form>
+
+    <main class="main">
+
+            <form action="index.php" method="post">
+
+                <!-- <input type="hidden" name="gebruiker_keuze" value="Rock"> -->
+                <input type="image" class="rock" src="Images\Rock.png" alt="Rock" name="gebruiker_keuze" value="Rock" title="Rock" />
+                <!-- <input type="hidden" name="gebruiker_keuze" value="Paper"> -->
+                <input type="image" class="paper" src="Images\Paper.png" alt="Paper" name="gebruiker_keuze" value="Paper" title="Paper" />
+                <!-- <input type="hidden" name="gebruiker_keuze" value="Scissors"> -->
+                <input type="image" class="scissors" src="Images\Scissors.png" alt="Scissors" name="gebruiker_keuze" value="Scissors" title="Scissors" />
+
+            </form>
+
+    </main>
+
+</body>
+</html>

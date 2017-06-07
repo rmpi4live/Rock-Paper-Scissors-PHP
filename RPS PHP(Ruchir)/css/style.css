@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+main{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.reset{
+    font-family: "Times New Roman";
+    border-radius: white ;
+    color: white;
+    background-color: black;
+}
+
+.scoreboard{
+    color: white;
+    font-family: "Times New Roman";
+    font-weight: 100px;
+}
+
+.rock{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 175px;
+
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.rock:hover{
+    height: 225px;
+    width: 225px;
+}
+
+.paper{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 50px;
+
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.paper:hover{
+    height: 225px;
+    width: 225px;
+}
+
+.scissors{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 50px;
+
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.scissors:hover{
+    height: 225px;
+    width: 225px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
